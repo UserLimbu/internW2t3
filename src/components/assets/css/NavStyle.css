@@ -1,0 +1,40 @@
+.nav-bar {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    position: fixed; /* Fixes the nav bar at the top */
+    top: 0;
+    left: 0;
+  }
+  
+  .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;/* Distributes space evenly between list items */
+  }
+  
+  .nav-bar li {
+    float: left;
+  }
+  
+  .nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .nav-bar li a:hover {
+    background-color: #111;
+  }
+  
+  .home-head {
+    margin-top: 60px; /* Adds margin to account for fixed nav bar */
+    text-align: center;
+  }
+  
+
+  
